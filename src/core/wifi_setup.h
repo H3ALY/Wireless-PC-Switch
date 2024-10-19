@@ -8,7 +8,7 @@ class WiFiManager {
 public:
     void setup_wifi() {
         Serial.print("Connecting to ");
-        Serial.print(ssid);  // Use Serial.print instead of Serial.println
+        Serial.print(ssid);
         WiFi.begin(ssid, password);
 
         while (WiFi.status() != WL_CONNECTED) {
