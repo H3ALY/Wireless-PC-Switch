@@ -16,7 +16,7 @@ With this project, users can seamlessly power on their PCs from anywhere within 
 
 ## Installation
 
-For detailed installation instructions and configuration steps, please refer to the - TBC
+For detailed installation instructions and configuration steps, please refer to the [Wiki](https://github.com/H3ALY/Wireless-PC-Switch/wiki)
 
 ## Acknowledgements
 
