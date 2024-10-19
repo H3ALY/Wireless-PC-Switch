@@ -24,6 +24,11 @@ void mqttCallback(char* topic, byte* payload, unsigned int length) {
 
 void setup() {
     Serial.begin(115200);
+    
+    if (!validate_config()) {
+        Serial.println("Configuration validation failed. Halting execution.");
+        while (true);
+    }
     WiFiManager wifiManager;
     wifiManager.setup_wifi();
 
